@@ -1,0 +1,59 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  transition: background-color .3s ease;
+}
+
+.dark {
+  color: #F6F7F9;
+  background-color: #282C34;
+}
+
+.light {
+  color: #282C34;
+  background-color: #F5F5F5;
+}
+
+.container {
+  padding: 50px;
+  text-align: center;
+}
+
+.button-theme__btn, .modal-section__btn  {
+  width: 150px;
+  height: 60px;
+  color: inherit;
+  background-color: #087EA4;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.modal-section__btn.dark, 
+.button-theme__btn.dark {
+  color: #282C34;
+  background-color: #e1e2e3;
+}
+
+.modal-section__btn.light, 
+.button-theme__btn.light {
+  color: #F5F5F5;
+  background-color: #136682;
+}
+
+.button-theme__btn:hover,
+.modal-section__btn:hover {
+  opacity: 0.8;
+}
+
+.modal-section {
+  margin-top: 100px;
+}
+
+.modal-section__btn {
+  width: 200px;
+}
